@@ -59,7 +59,7 @@ a.select2-choice,
 .textarea_field textarea {
     border-radius: 8px !important;
     background: var(--grey) !important;
-    color: #fff !important;
+    color: #0f1645 !important;
     text-align: right !important;
     padding: 10px;
 }
