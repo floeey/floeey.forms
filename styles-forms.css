@@ -8,8 +8,8 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*/
 :root{
-	--green: #3DD598;
-	--black: #252525;
+	--blue: #4A90E2;
+	--white: #F9F9F9;
     --grey: #464646;
 }
 
@@ -18,8 +18,8 @@ form#form-entity > div:last-child {
 }
 
 h1, h2, h3, span, p, div{
-	/*background: green;*/
-	color: white;
+	/*background: blue;*/
+	color: #0f1645;
 }
 div#entity-container div {
     background: transparent;
@@ -35,26 +35,26 @@ div#entity-container .field_group.ng-scope.field_group_odd {
 div#entity-container {
     border-radius: 20px !important;
     overflow: hidden;
-    background: var(--black);
+    background: var(--white);
     padding: 20px 15px;
     /*font-family: 'FB open heb';*/
 }
 
 .select2-container-multi .select2-choices .select2-search-choice {
-    background: var(--green);
+    background: var(--blue);
 }
 
 .select2-drop {
     border-radius: 8px;
 }
 .select2-drop ul li.select2-highlighted {
-    background: var(--green);
+    background: var(--blue);
 }
 .select2-drop ul li:not(.select2-highlighted) {
-    background: var(--black);
+    background: var(--white);
 }
 /*div.select2-container .select2-chosen {
-    color: var(--black);
+    color: var(--white);
 }*/
 ul.select2-choices, 
 input, 
@@ -70,7 +70,7 @@ a.select2-choice,
     line-height: 1.3;
 }
 ul.select2-choices:focus, input:not(.select2-input):focus, a.select2-choice:focus, .textarea_field textarea:focus {
-    outline: 1px solid var(--green) !important;
+    outline: 1px solid var(--blue) !important;
 }
 div.field_name_wrapper div.field_name {
     color: #fff;
@@ -90,8 +90,8 @@ div.select2-result-label {
 }
 .create_entity_buttons button.btn {
     border-radius: 8px;
-    background-color: var(--green);
-    color: var(--black);
+    background-color: var(--blue);
+    color: var(--white);
     font-size: 16px;
     font-weight: 600;
     padding: 15px 30px;
@@ -105,8 +105,8 @@ div.select2-result-label {
     margin: 0 !important;
 }
 .entity .field_group div.modal_tooltip.ng-scope .popover {
-    background: var(--black) !important;
-    border-color: var(--green);
+    background: var(--white) !important;
+    border-color: var(--blue);
 }
 .entity input,
 .select2-container-multi ul.select2-choices {
