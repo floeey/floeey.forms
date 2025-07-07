@@ -88,11 +88,11 @@ div.select2-result-label {
 .create_entity_buttons {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 75%;
 }
 
 .create_entity_buttons button.btn {
-  width: 100%;                            /* Make the button span the container */
+  width: 75%;                            /* Make the button span the container */
   border-radius: 8px;
   background-color: var(--blue);          /* Assuming --blue is defined, e.g., #4A90E2 */
   color: var(--white);                    /* Assuming --white is defined, e.g., #FFFFFF */
