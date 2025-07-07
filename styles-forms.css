@@ -22,21 +22,22 @@ h1, h2, h3, span, p, div{
 	color: #0f1645;
 }
 div#entity-container div {
-    background: linear-gradient(
-    to bottom,
-    #ffffff 0%,
-    #f6f9fc 100%
-  );
+    background: fff;
     color: #0f1645;
     font-size: 20px;
     max-width: 800px;
     margin: 0 auto;
+    border-radius: 20px 
 }
 
 div#entity-container {
     border-radius: 20px !important;
     overflow: hidden;
-    background: var(--white);
+    background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #f6f9fc 100%
+  );
     padding: 20px 15px;
     /*font-family: 'FB open heb';*/
 }
