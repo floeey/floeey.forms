@@ -10,7 +10,9 @@
 
 /* ======= GLOBAL STYLES ======= */
 body, html {
-  background-color: var(--background-color) !important; /* Force white background everywhere inside iframe */
+  font-family: var(--font-family);
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
   margin: 0;
   padding: 0;
 }
@@ -34,6 +36,7 @@ div#entity-container h2 {
   text-align: center;
   color: var(--primary-color);
   margin-bottom: 25px;
+  color: var(--text-color) !important;
 }
 
 /* ======= INPUT FIELDS ======= */
