@@ -25,7 +25,6 @@ h1, h2, h3, p, span, label {
 div#entity-container {
   background-color: var(--background-color);
   border-radius: var(--border-radius);
-  max-width: 700px;
   margin: 40px auto;
   padding: 40px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* subtle shadow for modern look */
