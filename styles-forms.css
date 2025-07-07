@@ -38,6 +38,7 @@ div#entity-container {
     #f6f9fc 100%
   );
     padding: 20px 15px;
+    justify-content: center;
     /*font-family: 'FB open heb';*/
 }
 
