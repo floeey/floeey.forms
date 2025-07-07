@@ -99,7 +99,7 @@ div.select2-result-label {
     padding: 5px;
 }
 .entity .field_group div.modal_tooltip.ng-scope span {
-    margin: 20px !important;
+    margin: 0 !important;
 }
 .entity .field_group div.modal_tooltip.ng-scope .popover {
     background: var(--white) !important;
