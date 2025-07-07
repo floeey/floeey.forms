@@ -26,15 +26,14 @@ div#entity-container div {
     color: #0f1645;
     font-size: 16px;
     max-width: 1400px;
-    margin: 40 auto;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 0 auto;
 }
 
 div#entity-container {
     border-radius: 20px !important;
     overflow: hidden;
     background: var(--white);
-    padding: 20px 15px;
+    padding: 40px 15px;
     /*font-family: 'FB open heb';*/
 }
 
