@@ -1,11 +1,11 @@
 /* ======= ROOT VARIABLES ======= */
 :root {
-  --primary-color: #3DD598;      /* Vibrant green accent */
-  --background-color: #1C1C1E;   /* Dark form background */
-  --input-bg-color: #2C2C2E;     /* Darker grey for fields */
-  --text-color: #FFFFFF;         /* White text */
-  --border-radius: 12px;         /* Rounded corners for modern look */
-  --font-family: 'Roboto', sans-serif; /* Clean, professional font */
+  --primary-color: #4A90E2;       /* Light medical blue */
+  --background-color: #FFFFFF;    /* Clean white background */
+  --input-bg-color: #F7F7F7;      /* Soft grey input fields */
+  --text-color: #333333;          /* Dark grey text */
+  --border-radius: 12px;          /* Rounded corners for a modern look */
+  --font-family: 'Roboto', sans-serif; /* Professional, clean font */
 }
 
 /* ======= GLOBAL STYLES ======= */
@@ -25,10 +25,10 @@ h1, h2, h3, p, span, label {
 div#entity-container {
   background-color: var(--background-color);
   border-radius: var(--border-radius);
-  max-width: 600px;
+  max-width: 700px;
   margin: 40px auto;
-  padding: 30px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* subtle shadow for modern look */
 }
 
 /* ======= FORM HEADERS ======= */
@@ -36,7 +36,7 @@ div#entity-container h1,
 div#entity-container h2 {
   text-align: center;
   color: var(--primary-color);
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 /* ======= INPUT FIELDS ======= */
@@ -45,12 +45,12 @@ input, textarea, select,
 .select2-container-multi .select2-choices {
   width: 100%;
   background-color: var(--input-bg-color) !important;
-  border: 1px solid #555 !important;
+  border: 1px solid #CCCCCC !important;
   color: var(--text-color) !important;
   border-radius: var(--border-radius) !important;
-  padding: 12px 15px !important;
+  padding: 14px 18px !important;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   box-sizing: border-box;
   text-align: right;
 }
@@ -65,30 +65,31 @@ input:focus, textarea:focus, select:focus,
 /* ======= LABELS ======= */
 div.field_name_wrapper div.field_name {
   color: var(--text-color);
-  font-weight: 500;
-  margin-bottom: 5px;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 
 /* ======= BUTTONS ======= */
 .create_entity_buttons {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .create_entity_buttons button.btn {
   background-color: var(--primary-color);
-  color: var(--background-color);
+  color: #FFFFFF;
   border: none;
   border-radius: var(--border-radius);
   font-size: 18px;
   font-weight: 600;
   padding: 15px 40px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .create_entity_buttons button.btn:hover {
-  background-color: #28a87e; /* Slightly darker green on hover */
+  background-color: #357ABD; /* Darker shade of blue on hover */
+  transform: scale(1.03);
 }
 
 /* ======= SELECT2 DROPDOWNS ======= */
@@ -100,7 +101,7 @@ div.field_name_wrapper div.field_name {
 
 .select2-drop ul li.select2-highlighted {
   background-color: var(--primary-color) !important;
-  color: var(--background-color) !important;
+  color: #FFFFFF !important;
 }
 
 .select2-drop ul li:not(.select2-highlighted) {
@@ -109,16 +110,17 @@ div.field_name_wrapper div.field_name {
 
 /* ======= TOOLTIP POPUPS ======= */
 .entity .field_group div.modal_tooltip.ng-scope .popover {
-  background-color: var(--background-color) !important;
+  background-color: #FFFFFF !important;
   color: var(--text-color);
   border-color: var(--primary-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* ======= RESPONSIVE DESIGN ======= */
 @media (max-width: 600px) {
   div#entity-container {
     margin: 20px;
-    padding: 20px;
+    padding: 25px;
   }
 
   .create_entity_buttons button.btn {
