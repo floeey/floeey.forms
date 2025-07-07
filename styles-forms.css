@@ -33,7 +33,7 @@ div#entity-container {
     border-radius: 20px !important;
     overflow: hidden;
     background: var(--white);
-    padding: 40px 15px;
+    padding: 20px 15px;
     /*font-family: 'FB open heb';*/
 }
 
@@ -99,7 +99,7 @@ div.select2-result-label {
     padding: 5px;
 }
 .entity .field_group div.modal_tooltip.ng-scope span {
-    margin: 0 !important;
+    margin: 20px !important;
 }
 .entity .field_group div.modal_tooltip.ng-scope .popover {
     background: var(--white) !important;
