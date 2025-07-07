@@ -22,14 +22,12 @@ h1, h2, h3, span, p, div{
 	color: #0f1645;
 }
 div#entity-container div {
-    background: transparent;
-    color: #fff;
+    background: #f9f9f9;
+    color: #0f1645;
     font-size: 16px;
     max-width: 1400px;
-    margin: 0 auto;
-}
-div#entity-container .field_group.ng-scope.field_group_odd {
-    color: #0f1645;
+    margin: 40 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 div#entity-container {
