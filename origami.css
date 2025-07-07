@@ -15,7 +15,9 @@ body, html {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-}
+    height: 100% !important;         /* Ensure the iframe content fills the iframe height */
+  min-height: 100% !important;     /* Account for variable content height */
+  box-sizing: border-box;
 
 h1, h2, h3, p, span, label {
   color: var(--text-color);
@@ -23,11 +25,15 @@ h1, h2, h3, p, span, label {
 
 /* ======= FORM CONTAINER ======= */
 div#entity-container {
-  background-color: var(--background-color);
+  background-color: var(--background-color) !important;
   border-radius: var(--border-radius);
   margin: 40px auto;
   padding: 40px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* subtle shadow for modern look */
+  min-height: 100% !important;     /* Make your form container fill the height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;         /* Vertically center the content if short */
 }
 
 /* ======= FORM HEADERS ======= */
