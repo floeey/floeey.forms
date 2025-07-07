@@ -7,6 +7,10 @@
   --border-radius: 12px;          /* Rounded corners for a modern look */
 }
 
+form#form-entity > div:last-child {
+    display: none;
+}
+
 /* ======= GLOBAL STYLES ======= */
 body, html {
   background-color: var(--background-color) !important;
@@ -20,3 +24,4 @@ div#entity-container {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* subtle shadow for modern look */
         /* Vertically center the content if short */
 }
+
