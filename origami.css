@@ -18,6 +18,7 @@ body, html {
     height: 100% !important;         /* Ensure the iframe content fills the iframe height */
   min-height: 100% !important;     /* Account for variable content height */
   box-sizing: border-box;
+}
 
 h1, h2, h3, p, span, label {
   color: var(--text-color);
