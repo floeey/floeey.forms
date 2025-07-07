@@ -11,11 +11,6 @@
 body, html {
   background-color: var(--background-color) !important;
   color: var(--text-color);
-  margin: 0;
-  padding: 0;
-    height: 100% !important;         /* Ensure the iframe content fills the iframe height */
-  min-height: 100% !important;     /* Account for variable content height */
-  box-sizing: border-box;
 }
 
 /* ======= FORM CONTAINER ======= */
