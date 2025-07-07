@@ -121,8 +121,8 @@ div.select2-result-label {
 }
 
 .entyty .field_group {
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 10px !important;
+margin-bottom: 10px !important;
 }
 
 .entity .field_group div.modal_tooltip.ng-scope span {
