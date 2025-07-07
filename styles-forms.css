@@ -22,7 +22,7 @@ h1, h2, h3, span, p, div{
 	color: #0f1645;
 }
 div#entity-container div {
-    background: var(--white) ;
+    background: transparent ;
     color: #0f1645;
     font-size: 20px;
     max-width: 800px;
@@ -119,6 +119,12 @@ div.select2-result-label {
     left: 0;
     padding: 5px;
 }
+
+.entyty .field_group {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
 .entity .field_group div.modal_tooltip.ng-scope span {
     margin: 0 !important;
 }
