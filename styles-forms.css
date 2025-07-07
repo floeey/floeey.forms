@@ -29,7 +29,7 @@ div#entity-container div {
     margin: 0 auto;
 }
 div#entity-container .field_group.ng-scope.field_group_odd {
-    border: none;
+    color: #0f1645;
 }
 
 div#entity-container {
