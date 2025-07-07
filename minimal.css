@@ -1,0 +1,135 @@
+/* ======= ROOT VARIABLES ======= */
+:root {
+  --primary-color: #4A90E2;       /* Light medical blue */
+  --background-color: #FFFFFF;    /* Clean white background */
+  --input-bg-color: #F7F7F7;      /* Soft grey input fields */
+  --text-color: #333333;          /* Dark grey text */
+  --border-radius: 12px;          /* Rounded corners for a modern look */
+  --font-family: 'Roboto', sans-serif; /* Professional, clean font */
+}
+
+/* ======= GLOBAL STYLES ======= */
+body, html {
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+    height: 100% !important;         /* Ensure the iframe content fills the iframe height */
+  min-height: 100% !important;     /* Account for variable content height */
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p, span, label {
+  color: var(--text-color);
+}
+
+/* ======= FORM CONTAINER ======= */
+div#entity-container {
+  background-color: var(--background-color) !important;
+  border-radius: var(--border-radius);
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* subtle shadow for modern look */
+  min-height: 100% !important;     /* Make your form container fill the height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;         /* Vertically center the content if short */
+}
+
+/* ======= FORM HEADERS ======= */
+div#entity-container h1,
+div#entity-container h2 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+  color: var(--text-color) !important;
+}
+
+/* ======= INPUT FIELDS ======= */
+input, textarea, select,
+.select2-container .select2-choice,
+.select2-container-multi .select2-choices {
+  width: 100%;
+  background-color: var(--input-bg-color) !important;
+  border: 1px solid #CCCCCC !important;
+  color: var(--text-color) !important;
+  border-radius: var(--border-radius) !important;
+  padding: 14px 18px !important;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+/* FOCUS STATES */
+input:focus, textarea:focus, select:focus,
+.select2-container .select2-choice:focus,
+.select2-container-multi .select2-choices:focus {
+  outline: 2px solid var(--primary-color) !important;
+}
+
+/* ======= LABELS ======= */
+div.field_name_wrapper div.field_name {
+  color: var(--text-color);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* ======= BUTTONS ======= */
+.create_entity_buttons {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.create_entity_buttons button.btn {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.create_entity_buttons button.btn:hover {
+  background-color: #357ABD; /* Darker shade of blue on hover */
+  transform: scale(1.03);
+}
+
+/* ======= SELECT2 DROPDOWNS ======= */
+.select2-drop {
+  background-color: var(--input-bg-color) !important;
+  border-radius: var(--border-radius) !important;
+  color: var(--text-color);
+}
+
+.select2-drop ul li.select2-highlighted {
+  background-color: var(--primary-color) !important;
+  color: #FFFFFF !important;
+}
+
+.select2-drop ul li:not(.select2-highlighted) {
+  background-color: var(--input-bg-color) !important;
+}
+
+/* ======= TOOLTIP POPUPS ======= */
+.entity .field_group div.modal_tooltip.ng-scope .popover {
+  background-color: #FFFFFF !important;
+  color: var(--text-color);
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ======= RESPONSIVE DESIGN ======= */
+@media (max-width: 600px) {
+  div#entity-container {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  .create_entity_buttons button.btn {
+    width: 100%;
+  }
+}
